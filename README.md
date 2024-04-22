@@ -43,7 +43,7 @@ docker-compose up -d
 ## The Community Edition is good for most things, but not every thing 
 
 Here is a matrix of what you can install in the Community Edition.
-Uninstallable means you need the paid Enterprise editions and Studio* or on-prem installs need the most expensive upgrade.
+UPGRADE means you need the paid Enterprise editions and Studio* or on-prem installs need the most expensive upgrade.
 See [Odoo Pricing](https://www.odoo.com/pricing-plan) for full details.
 
 *CURRENT AS OF 4/22/2024*
