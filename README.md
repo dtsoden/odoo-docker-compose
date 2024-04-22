@@ -46,60 +46,61 @@ Here is a matrix of what you can install in the Community Edition.
 Uninstallable means you need the paid Enterprise editions and Studio* or on-prem installs need the most expensive upgrade.
 See [Odoo Pricing](https://www.odoo.com/pricing-plan) for full details.
 
+*CURRENT AS OF 4/22/2024*
 | Status        | Module Name                        | Category        |
 | ------------- | ---------------------------------- | --------------- |
-| Uninstallable | Studio*                            | Administration  |
-| Uninstallable | Android & iPhone                   | Administration  |
-| Uninstallable | Appraisal                          | Appraisals      |
-| Not Installed | Attendances                        | Attendances     |
-| Not Installed | Calendar                           | Calendar        |
-| Not Installed | Employee Contracts                 | Contracts       |
-| Not Installed | CRM                                | CRM             |
-| Not Installed | Contacts                           | CRM             |
-| Not Installed | Data Recycle                       | Data Cleaning   |
-| Not Installed | Discuss                            | Discuss         |
-| Not Installed | eLearning                          | eLearning       |
-| Not Installed | Email Marketing                    | Email Marketing |
-| Not Installed | SMS Marketing                      | Email Marketing |
-| Uninstallable | Marketing Automation               | Email Marketing |
-| Not Installed | Employees                          | Employees       |
-| Not Installed | Skills Management                  | Employees       |
-| Not Installed | Events                             | Events          |
-| Not Installed | Expenses                           | Expenses        |
-| Uninstallable | Field Service                      | Field Service   |
-| Not Installed | Fleet                              | Fleet           |
-| Uninstallable | Helpdesk                           | Helpdesk        |
-| Not Installed | Inventory                          | Inventory       |
-| Not Installed | Repairs                            | Inventory       |
-| Uninstallable | Barcode                            | Inventory       |
-| Not Installed | Invoicing                          | Invoicing       |
-| Uninstallable | Accounting                         | Invoicing       |
-| Not Installed | Live Chat                          | Live Chat       |
-| Not Installed | Lunch                              | Lunch           |
-| Not Installed | Maintenance                        | Maintenance     |
-| Not Installed | Manufacturing                      | Manufacturing   |
-| Uninstallable | MRP II                             | Manufacturing   |
-| Uninstallable | Quality                            | Manufacturing   |
-| Uninstallable | Product Lifecycle Management (PLM) | Manufacturing   |
-| Uninstallable | Social Marketing                   | Marketing       |
-| Uninstallable | Appointments                       | Marketing       |
-| Not Installed | Restaurant                         | Point of Sale   |
-| Not Installed | Point of Sale                      | Point of Sale   |
-| Uninstallable | Knowledge                          | Productivity    |
-| Not Installed | Project                            | Project         |
-| Uninstallable | Planning                           | Project         |
-| Not Installed | Purchase                           | Purchase        |
-| Not Installed | Recruitment                        | Recruitment     |
-| Not Installed | Sales                              | Sales           |
-| Uninstallable | Subscriptions                      | Sales           |
-| Uninstallable | VoIP                               | Sales           |
-| Uninstallable | Amazon Connector                   | Sales           |
-| Uninstallable | eBay Connector                     | Sales           |
-| Uninstallable | Sign                               | Sign            |
-| Not Installed | Surveys                            | Surveys         |
-| Not Installed | Time Off                           | Time Off        |
-| Uninstallable | Timesheets                         | Timesheets      |
-| Not Installed | To-Do                              | To-Do           |
-| Not Installed | Website                            | Website         |
-| Not Installed | eCommerce                          | Website         |
-| Not Installed | Online Jobs                        | Website         |
+| UPGRADE       | Studio*                            | Administration  |
+| UPGRADE       | Android & iPhone                   | Administration  |
+| UPGRADE       | Appraisal                          | Appraisals      |
+| FREE IN CE    | Attendances                        | Attendances     |
+| FREE IN CE    | Calendar                           | Calendar        |
+| FREE IN CE    | Employee Contracts                 | Contracts       |
+| FREE IN CE    | CRM                                | CRM             |
+| FREE IN CE    | Contacts                           | CRM             |
+| FREE IN CE    | Data Recycle                       | Data Cleaning   |
+| FREE IN CE    | Discuss                            | Discuss         |
+| FREE IN CE    | eLearning                          | eLearning       |
+| FREE IN CE    | Email Marketing                    | Email Marketing |
+| FREE IN CE    | SMS Marketing                      | Email Marketing |
+| UPGRADE       | Marketing Automation               | Email Marketing |
+| FREE IN CE    | Employees                          | Employees       |
+| FREE IN CE    | Skills Management                  | Employees       |
+| FREE IN CE    | Events                             | Events          |
+| FREE IN CE    | Expenses                           | Expenses        |
+| UPGRADE       | Field Service                      | Field Service   |
+| FREE IN CE    | Fleet                              | Fleet           |
+| UPGRADE       | Helpdesk                           | Helpdesk        |
+| FREE IN CE    | Inventory                          | Inventory       |
+| FREE IN CE    | Repairs                            | Inventory       |
+| UPGRADE       | Barcode                            | Inventory       |
+| FREE IN CE    | Invoicing                          | Invoicing       |
+| UPGRADE       | Accounting                         | Invoicing       |
+| FREE IN CE    | Live Chat                          | Live Chat       |
+| FREE IN CE    | Lunch                              | Lunch           |
+| FREE IN CE    | Maintenance                        | Maintenance     |
+| FREE IN CE    | Manufacturing                      | Manufacturing   |
+| UPGRADE       | MRP II                             | Manufacturing   |
+| UPGRADE       | Quality                            | Manufacturing   |
+| UPGRADE       | Product Lifecycle Management (PLM) | Manufacturing   |
+| UPGRADE       | Social Marketing                   | Marketing       |
+| UPGRADE       | Appointments                       | Marketing       |
+| FREE IN CE    | Restaurant                         | Point of Sale   |
+| FREE IN CE    | Point of Sale                      | Point of Sale   |
+| UPGRADE       | Knowledge                          | Productivity    |
+| FREE IN CE    | Project                            | Project         |
+| UPGRADE       | Planning                           | Project         |
+| FREE IN CE    | Purchase                           | Purchase        |
+| FREE IN CE    | Recruitment                        | Recruitment     |
+| FREE IN CE    | Sales                              | Sales           |
+| UPGRADE       | Subscriptions                      | Sales           |
+| UPGRADE       | VoIP                               | Sales           |
+| UPGRADE       | Amazon Connector                   | Sales           |
+| UPGRADE       | eBay Connector                     | Sales           |
+| UPGRADE       | Sign                               | Sign            |
+| FREE IN CE    | Surveys                            | Surveys         |
+| FREE IN CE    | Time Off                           | Time Off        |
+| UPGRADE       | Timesheets                         | Timesheets      |
+| FREE IN CE    | To-Do                              | To-Do           |
+| FREE IN CE    | Website                            | Website         |
+| FREE IN CE    | eCommerce                          | Website         |
+| FREE IN CE    | Online Jobs                        | Website         |
