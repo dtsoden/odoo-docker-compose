@@ -25,7 +25,7 @@ docker-compose up -d
 ## Expose the web UI to the internet
 - use a [CloudFlare Tunnel](https://developers.cloudflare.com/cloudflare-one)
 
-## Remove Template Powered Bu odoo Branding
+## Remove Template Powered By odoo Branding
 - Enable dev mode
 - From Settings a new menu dropdown at the top appears called, Technical.
 - about mid way down locate the section group called "User Interface" and select "Views"
