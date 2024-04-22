@@ -1,5 +1,5 @@
 # odoo-docker-compose
-To run simply download the file "docker-compose.yml", and in a command line where this file is located run
+To run simply download the file [docker-compose.yml](https://raw.githubusercontent.com/dtsoden/odoo-docker-compose/main/docker-compose.yml), and in a command line where this file is located run
 
 ````
 docker-compose up -d
