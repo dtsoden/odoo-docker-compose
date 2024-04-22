@@ -39,3 +39,67 @@ docker-compose up -d
 ## Special notes
 - There seams to be some bug that is unknown how to resolve in that you can only edite the website module locally using http://localhost
 - The site is usable once configured, just not editable outside of the LAN on the internet
+
+## The Community Edition is good for most things, but not every thing 
+
+Here is a matrix of what you can install in the Community Edition.
+Uninstallable means you need the paid Enterprise editions and Studio* or on-prem installs need the most expensive upgrade.
+See [Odoo Pricing](https://www.odoo.com/pricing-plan) for full details.
+
+| Status        | Module Name                        | Category        |
+| ------------- | ---------------------------------- | --------------- |
+| Uninstallable | Studio*                            | Administration  |
+| Uninstallable | Android & iPhone                   | Administration  |
+| Uninstallable | Appraisal                          | Appraisals      |
+| Not Installed | Attendances                        | Attendances     |
+| Not Installed | Calendar                           | Calendar        |
+| Not Installed | Employee Contracts                 | Contracts       |
+| Not Installed | CRM                                | CRM             |
+| Not Installed | Contacts                           | CRM             |
+| Not Installed | Data Recycle                       | Data Cleaning   |
+| Not Installed | Discuss                            | Discuss         |
+| Not Installed | eLearning                          | eLearning       |
+| Not Installed | Email Marketing                    | Email Marketing |
+| Not Installed | SMS Marketing                      | Email Marketing |
+| Uninstallable | Marketing Automation               | Email Marketing |
+| Not Installed | Employees                          | Employees       |
+| Not Installed | Skills Management                  | Employees       |
+| Not Installed | Events                             | Events          |
+| Not Installed | Expenses                           | Expenses        |
+| Uninstallable | Field Service                      | Field Service   |
+| Not Installed | Fleet                              | Fleet           |
+| Uninstallable | Helpdesk                           | Helpdesk        |
+| Not Installed | Inventory                          | Inventory       |
+| Not Installed | Repairs                            | Inventory       |
+| Uninstallable | Barcode                            | Inventory       |
+| Not Installed | Invoicing                          | Invoicing       |
+| Uninstallable | Accounting                         | Invoicing       |
+| Not Installed | Live Chat                          | Live Chat       |
+| Not Installed | Lunch                              | Lunch           |
+| Not Installed | Maintenance                        | Maintenance     |
+| Not Installed | Manufacturing                      | Manufacturing   |
+| Uninstallable | MRP II                             | Manufacturing   |
+| Uninstallable | Quality                            | Manufacturing   |
+| Uninstallable | Product Lifecycle Management (PLM) | Manufacturing   |
+| Uninstallable | Social Marketing                   | Marketing       |
+| Uninstallable | Appointments                       | Marketing       |
+| Not Installed | Restaurant                         | Point of Sale   |
+| Not Installed | Point of Sale                      | Point of Sale   |
+| Uninstallable | Knowledge                          | Productivity    |
+| Not Installed | Project                            | Project         |
+| Uninstallable | Planning                           | Project         |
+| Not Installed | Purchase                           | Purchase        |
+| Not Installed | Recruitment                        | Recruitment     |
+| Not Installed | Sales                              | Sales           |
+| Uninstallable | Subscriptions                      | Sales           |
+| Uninstallable | VoIP                               | Sales           |
+| Uninstallable | Amazon Connector                   | Sales           |
+| Uninstallable | eBay Connector                     | Sales           |
+| Uninstallable | Sign                               | Sign            |
+| Not Installed | Surveys                            | Surveys         |
+| Not Installed | Time Off                           | Time Off        |
+| Uninstallable | Timesheets                         | Timesheets      |
+| Not Installed | To-Do                              | To-Do           |
+| Not Installed | Website                            | Website         |
+| Not Installed | eCommerce                          | Website         |
+| Not Installed | Online Jobs                        | Website         |
