@@ -25,6 +25,13 @@ docker-compose up -d
 ## Expose the web UI to the internet
 - use a [CloudFlare Tunnel](https://developers.cloudflare.com/cloudflare-one)
 
+## Remove Template Powered Bu odoo Branding
+- Enable dev mode
+- From Settings a new menu dropdown at the top appears called, Technical.
+- about mid way down locate the section group called "User Interface" and select "Views"
+- select "Brand Promotion Message" and the only code needed is ````<t name="Brand Promotion Message" t-name="web.brand_promotion_message"/>```` or put your own code
+- save the file changes manually or nav away 
+
 ## Special notes
 - There seams to be some bug that is unknown how to resolve in that you can only edite the website module locally using http://localhost
 - The site is usable once configured, just not editable outside of the LAN on the internet
