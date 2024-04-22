@@ -30,7 +30,11 @@ docker-compose up -d
 - From Settings a new menu dropdown at the top appears called, Technical.
 - about mid way down locate the section group called "User Interface" and select "Views"
 - select "Brand Promotion Message" and the only code needed is ````<t name="Brand Promotion Message" t-name="web.brand_promotion_message"/>```` or put your own code
-- save the file changes manually or nav away 
+- save the file changes manually or nav away
+- REMOVE POWERED BY on the login box
+- locate "Login Layout"
+- remove or comment out line 19 ````<a href="https://www.odoo.com?utm_source=db&amp;utm_medium=auth" target="_blank">Powered by <span>Odoo</span></a>````
+- dissable dev mode
 
 ## Special notes
 - There seams to be some bug that is unknown how to resolve in that you can only edite the website module locally using http://localhost
