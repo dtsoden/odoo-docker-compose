@@ -5,7 +5,7 @@ services:
     depends_on:
       - mydb
     ports:
-      - "80:8069"
+      - "8069:8069"
     volumes:
       - web-data:/var/lib/odoo
       - addons:/mnt/extra-addons
@@ -21,8 +21,20 @@ services:
       - POSTGRES_USER=odoo
     volumes:
       - db-data:/var/lib/postgresql/data
+  proxy:
+    image: 'jc21/nginx-proxy-manager:latest'
+    restart: unless-stopped
+    ports:
+      - '80:80'
+      - '81:81'
+      - '443:443'
+    volumes:
+      - data:/data
+      - letsencrypt:/etc/letsencrypt
 
 volumes:
   web-data:
   db-data:
   addons:
+  data:
+  letsencrypt:
