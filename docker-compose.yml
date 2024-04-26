@@ -12,13 +12,13 @@ services:
     environment:
       - HOST=mydb
       - USER=odoo
-      - PASSWORD=myodoo
+      - PASSWORD=myodoo #change this to something secure
   mydb:
     image: postgres:15
     environment:
       - POSTGRES_DB=postgres
-      - POSTGRES_PASSWORD=myodoo
       - POSTGRES_USER=odoo
+      - POSTGRES_PASSWORD=myodoo #change this to something secure and match up with line no. 15 above
     volumes:
       - db-data:/var/lib/postgresql/data
   proxy:
