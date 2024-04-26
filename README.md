@@ -18,7 +18,8 @@ docker-compose up -d
 - run --> apt get update
 - run --> apt install nano
 - run --> nano /etc/odoo/odoo.conf
-- add a line a line #3 --> list_db = False
+- add a line #3 --> list_db = False
+- add a line #4 --> proxy_mode = True
 - save/write the file
 - restart the container
 
