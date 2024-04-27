@@ -7,8 +7,9 @@ services:
     ports:
       - "8069:8069"
     volumes:
-      - web-data:/var/lib/odoo
-      - addons:/mnt/extra-addons
+      - ./web-data:/var/lib/odoo
+      - ./addons:/mnt/extra-addons
+      - ./web-data/config:/etc/odoo
     environment:
       - HOST=mydb
       - USER=odoo
@@ -20,7 +21,7 @@ services:
       - POSTGRES_USER=odoo
       - POSTGRES_PASSWORD=myodoo #change this to something secure and match up with line no. 15 above
     volumes:
-      - db-data:/var/lib/postgresql/data
+      - ./db-data:/var/lib/postgresql/data
   proxy:
     image: 'jc21/nginx-proxy-manager:latest'
     restart: unless-stopped
@@ -29,12 +30,5 @@ services:
       - '81:81'
       - '443:443'
     volumes:
-      - data:/data
-      - letsencrypt:/etc/letsencrypt
-
-volumes:
-  web-data:
-  db-data:
-  addons:
-  data:
-  letsencrypt:
+      - ./proxy-data:/data
+      - ./letsencrypt:/etc/letsencrypt
