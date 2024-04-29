@@ -1,5 +1,6 @@
 import requests
 import json
+import datetime
 
 # Cloudflare API credentials
 api_key = "Bearer ***YOUR KEY HERE***"
@@ -10,6 +11,7 @@ zone_id = "***YOUR ZONE_ID HERE***"
 dns_record_id = "***YOUR RECORD_ID HERE***"
 dns_record_type = "A"
 dns_record_name = "@" # Be sure to add a CNAME record of WWW, pointing to @
+dns_record_comments = "Last updated on " + datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 
 # Get your current IP address
 def get_current_ip():
@@ -28,7 +30,8 @@ def update_dns_record(ip):
     data = {
         "type": dns_record_type,
         "name": dns_record_name,
-        "content": ip
+        "content": ip,
+        "comment": dns_record_comments
     }
     response = requests.patch(url, headers=headers, data=json.dumps(data))
     return response.json()
