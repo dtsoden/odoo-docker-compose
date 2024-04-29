@@ -23,6 +23,8 @@ services:
       - POSTGRES_DB=postgres
       - POSTGRES_USER=odoo
       - POSTGRES_PASSWORD=myodoo #change this to something secure and match up with line no. 15 above
+    ports:
+      - "5432:5432"
     volumes:
       - ./db-data:/var/lib/postgresql/data
     networks:
