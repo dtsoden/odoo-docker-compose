@@ -43,6 +43,9 @@ docker-compose up -d
 
 ## The Community Edition is good for most things, but not every thing 
 
+## System Parameters (enable Dev Mode)
+- add web.base.url.freeze = True to System Parameters (enable dev mode)
+
 Here is a matrix of what you can install in the Community Edition.
 UPGRADE means you need the paid Enterprise editions and Studio* or on-prem installs need the most expensive upgrade.
 See [Odoo Pricing](https://www.odoo.com/pricing-plan) for full details.
